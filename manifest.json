@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Freebitcoin auto roller",
+	"version": "0.1",
+
+	"description": "rolls freebitcoin automatically",
+
+	"background": {
+		"scripts": ["autoroller.js"]
+	},
+
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"<all_urls>"
+	]
+}
